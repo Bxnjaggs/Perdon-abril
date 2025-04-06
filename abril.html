@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Podemos hablar,  Abril?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fce3ec, #ffe8d6);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 2.5rem;
+      max-width: 650px;
+      width: 100%;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    h1 {
+      color: #d81b60;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    form {
+      margin: 0;
+    }
+
+    .btn {
+      font-size: 1rem;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .btn-yes {
+      background-color: #43a047;
+      color: #fff;
+    }
+
+    .btn-yes:hover {
+      background-color: #388e3c;
+      transform: scale(1.05);
+    }
+
+    .btn-no {
+      background-color: #e53935;
+      color: #fff;
+    }
+
+    .btn-no:hover {
+      background-color: #c62828;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 2.5rem;
+      text-align: center;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hola, Abril</h1>
+    <p>
+      Primero que nada, te quiero pedir perdón de verdad.  
+      Sé que te mentí, y no fue solo una vez. Me cuesta admitirlo, pero es así,  
+      y no puedo seguir haciéndome el boludo.  
+
+      Estos últimos meses estuve mal, la cabeza me juega en contra y tengo bajones todo el tiempo.  
+      No lo digo como excusa, porque sé que nada justifica lo que hice,  
+      pero quiero que sepas que no estoy bien y que eso me hizo hacer cosas que ahora me duelen más a mí que a nadie.  
+
+      No quiero perderte. No quiero seguir viviendo los días sin poder hablar con vos.  
+      Siento que todo está apagado si no estás.  
+
+      Te estoy hablando desde lo más sincero que tengo.  
+      Si me das otra oportunidad, aunque sea una mínima, posta que quiero cambiar.  
+      Por vos.  
+
+      No me siento bien si no sé de vos.  
+
+      Y por eso te pregunto con todo el corazón:  
+      <strong>¿Podemos volver a hablar?</strong>
+    </p>
+
+    <div class="buttons">
+      <form action="https://formspree.io/f/maneleqj" method="POST">
+        <input type="hidden" name="respuesta" value="Chi 😭❤️">
+        <button type="submit" class="btn btn-yes">chi</button>
+      </form>
+
+      <form action="https://formspree.io/f/maneleqj" method="POST">
+        <input type="hidden" name="respuesta" value="Ño 💔">
+        <button type="submit" class="btn btn-no">ño</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      – El que todavía te espera jujuju 
+    </div>
+  </div>
+</body>
+</html>
